@@ -1,0 +1,70 @@
+# Laravel
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+/storage/*.log
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+# /.env
+# .env.*
+.env.production
+Homestead.yaml
+Homestead.json
+auth.json
+.vagrant
+/.phpunit.cache
+.phpunit.result.cache
+
+# Vite
+/public/build
+/public/hot
+
+# Composer
+composer.lock
+
+# NPM/Yarn
+package-lock.json
+yarn.lock
+
+# IDEs and Editors
+/.fleet
+/.idea
+/.vscode
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+/storage/logs/*.log
+*.log
+
+# Cache
+/.cache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Tests
+.phpunit.result.cache
+phpunit.xml
+phpunit.xml.dist
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+
+# Laravel Telescope (nếu bạn sử dụng)
+/storage/telescope
+
+# Laravel Horizon (nếu bạn sử dụng)
+/horizon/*.json
